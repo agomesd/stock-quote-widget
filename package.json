@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "main": "widget/index.js",
   "files": [
-    "widget/"
+    "widget/index.js, widget/index.css"
   ],
   "publishConfig": {
     "@agomesd:registry": "https://npm.pkg.github.com"
