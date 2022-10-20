@@ -1,6 +1,6 @@
 {
   "name": "@agomesd/stock-quote-widget",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./widget/index.js",
   "publishConfig": {
     "@agomesd:registry": "https://npm.pkg.github.com"
