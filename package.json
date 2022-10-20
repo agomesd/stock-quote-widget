@@ -1,14 +1,15 @@
 {
   "name": "@agomesd/stock-quote-widget",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "widget/index.js",
   "files": [
-    "widget/index.js, widget/index.css"
+    "widget"
   ],
   "publishConfig": {
     "@agomesd:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
+    "@swc/helpers": "^0.4.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -26,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "parcel build src/index.tsx --no-source-maps --dist-dir widget && cp build/static/css/*.css widget/index.css",
+    "build": "tsc && parcel build src/index.tsx --no-source-maps --dist-dir widget && cp build/static/css/*.css widget/index.css",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject"
   },
