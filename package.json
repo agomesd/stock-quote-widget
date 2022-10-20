@@ -1,6 +1,6 @@
 {
   "name": "@agomesd/stock-quote-widget",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "widget/index.js",
   "files": [
     "widget/index.js, widget/index.css"
